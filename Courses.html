@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School - University website Design</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/modern-school-logo.jpg" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="AboutUs.html">ABOUT</a></li>
+                    <li><a href="Courses.html">COURSES</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="ContactPage.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <h1>Our Courses</h1>
+
+    </section>
+
+<!--- Courses --->
+<section class="courses">
+    <h1>Our world class couses</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore 
+        magna aliqua.</p>
+
+<Div class="row">
+    <div class="courses-col">
+        <h3>Bachelors</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore 
+            magna aliqua.</p>
+    </div>
+    <div class="courses-col">
+        <h3>Masters</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore 
+            magna aliqua.</p>
+    </div>
+    <div class="courses-col">
+        <h3>Post-Grad</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore 
+            magna aliqua.</p>
+    </div>
+
+</Div>
+
+</section>
+
+
+<!-------facilities----->
+
+<section class="facilities">
+    <h1>The Camppus Facilities</h1>
+    <P>On our modern campus you will find all the facilities you need to learn, collaborate, get your nutrition and relax after a day of hard work.</P>
+
+    <Div class="row">
+        <div class="facilities-col">
+            <h3>Vast collction in our libarary</h3>
+            <img src="img/Libarary-bookhallway.jpg" alt="Library-Book Hallway">
+            <p>Get all of the research materials you need, work in a great inpiring place in peace.</p>
+        </div>
+        <div class="facilities-col">
+            <h3>Play sports</h3>
+            <img src="img/Sports-basketball2.jpeg" alt="basketball">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="facilities-col">
+            <h3>Tasty and healty food options</h3>
+            <img src="img/Foods-snacks.jpeg" alt="Foods and snacks">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </Div>
+</section>
+
+<!--- footer --->
+<section class="footer">
+    <h4>About us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore 
+        magna aliqua.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Marwan Khalife</p>
+</section>
+
+<!--- JavaScript for menu toggle fuctionality --->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
